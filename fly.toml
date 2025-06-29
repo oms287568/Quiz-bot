@@ -1,0 +1,10 @@
+app = "your-app-name"  # Replace this after `fly launch`
+
+[env]
+  PORT = "8080"
+
+[experimental]
+  auto_rollback = true
+
+[build]
+  builder = "paketobuildpacks/builder:base"
